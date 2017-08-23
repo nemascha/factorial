@@ -1,4 +1,4 @@
-function factorial(n) {
+module.exports.factorial = function(n) {
 	
 	if (n < 2) {
 		return 1;
@@ -9,4 +9,4 @@ function factorial(n) {
 		num *=i;
 	}
 	return num;
-}
+};
