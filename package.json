@@ -1,0 +1,35 @@
+{
+  "name": "factorial",
+  "version": "1.0.0",
+  "description": "Install \r `npm install`",
+  "main": "factorial.js",
+  "scripts": {
+    "test": "mocha",
+    "test:single": "rm -rf tmp/ && karma start karma.conf.js --single-run --browsers PhantomJS",
+    "test:watch": "karma start karma.conf.js --browsers PhantomJS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nemascha/factorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nemascha/factorial/issues"
+  },
+  "homepage": "https://github.com/nemascha/factorial#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "jasmine-core": "^2.7.0",
+    "karma": "^1.7.0",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.3",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.4",
+    "webpack": "^3.5.5"
+  }
+}
